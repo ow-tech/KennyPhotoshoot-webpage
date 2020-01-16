@@ -1,22 +1,109 @@
-html{
-    background-color:beige;
-    width:80%
+body{
+background-image:url('../cd/images/500px_blog_howto_produce_photoshoot_ideas-1.jpg');   
+background-repeat:no-repeat ;                                                                                                                                                                                                                                
+overflow:auto;
 }
 header{
-    background-color:lawngreen;
-    padding: 14px 16px;
-    padding:20px;
+    padding:3px;
+    background-color: aqua;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
 }
-nav ul{
-    float:left;
-    display:inline block;
-    text-decoration: navy;
+P{
+    float:right;
+    padding:5px;
+}
+
+    ul {
+        list-style-type: none;
+        margin:0;
+        padding:0 ;
+        width: 200px;
+        background-color: #f1f1f1;
+      }
+      
+      li a {
+        display: flex;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      
+    
+      li a:hover {
+        background-color:green;
+        color: white;
+      }
+a{
+    color:rgb(240, 23, 23);
+    font-size:20px;
+
+
+}
+ul li a:hoover{
+    color:red;
+    background-color: green;
+}
+h1{
+   box-sizing: content-box; 
+   margin:10px 700px;
+   color:rgba(8, 223, 26, 0.788);
+   box-shadow:4px 4px 5px grey;
+   text-decoration:none;
+}
+table,th,tr,td{
+    border: 2px solid black;
+    padding:5px;
+}
+.edit{
+    height:300px;
+    width:auto;
+}
+.bold{
+    font-weight:1000;
+    font-size: larger;
+    background-color: beige;
+}
+.two{
+    font-size:larger;
+    background-color: darkgoldenrod;
+}
+#flex{
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1 2 2;
+}
+h3{
+    color:rgb(236, 15, 34);
+}
+.footer{
+   position:fixed;
+   left:o;
+   bottom:0;
+   width:100%;
+   background-color:red;
+   color:white;
+   text-align:center;
+}
+.contacts{
+    padding:20px;
+    font-size:20px;
+}
+.footer>p>a{
+    padding:15px;
+    color:white;
+}
+div.text{
+    background-color: rgb(243, 237, 230);
+    font-weight: 700;
+    font-size: x-large;
+    color:rgb(64, 233, 64);
     
 }
-li{
-    float:right;
-    text-decoration: none;
-    te
-
-
+div.call{
+    color: rgb(64,233,64)
 }
+
+
+
