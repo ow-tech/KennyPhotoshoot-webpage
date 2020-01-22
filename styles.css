@@ -1,40 +1,39 @@
 body{
-background-image:url('../cd/images/500px_blog_howto_produce_photoshoot_ideas-1.jpg');   
+/* background-image:url('./images/500px_blog_howto_produce_photoshoot_ideas-1.jpg');  */
+/* background-color: rgba(0,0,0,0.5);  */
 background-repeat:no-repeat ;                                                                                                                                                                                                                                
-overflow:scroll;
+overflow-x: hidden;
 }
 header{
-    padding:3px;
+    padding: 3px;
     background-color: aqua;
-    display:flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: flex-end;
 }
+
 P{
     float:right;
     padding:5px;
 }
 ul {
     list-style-type: none;
-    margin:0;
-    padding:0 ;
-    width: 200px;
-    background-color: #f1f1f1;
+    margin-left: 50%;
+
+}
+nav ul li {
+    display: inline;
+    padding-top: 30px;
 }
 li a {
-        display: flex;
         color: #000;
         padding: 8px 16px;
         text-decoration: none;
+        font-size: 25px;
     }
 li a:hover{
         background-color:green;
         color: white;
     }
-a{
-    color:rgb(240, 23, 23);
-    font-size:20px; 
-}
 
 h1{
    box-sizing: content-box; 
@@ -95,7 +94,10 @@ div.text{
     background-color: aqua;
 }
 
-
+img{
+    justify-content: space-around;
+    padding: 5px;
+}
 
 
 
