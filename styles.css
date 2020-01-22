@@ -1,7 +1,7 @@
 body{
 background-image:url('../cd/images/500px_blog_howto_produce_photoshoot_ideas-1.jpg');   
 background-repeat:no-repeat ;                                                                                                                                                                                                                                
-overflow:auto;
+overflow:scroll;
 }
 header{
     padding:3px;
@@ -19,7 +19,8 @@ ul {
     margin:0;
     padding:0 ;
     width: 200px;
-    background-color: #f1f1f1;}
+    background-color: #f1f1f1;
+}
 li a {
         display: flex;
         color: #000;
@@ -32,7 +33,7 @@ li a:hover{
     }
 a{
     color:rgb(240, 23, 23);
-    font-size:20px;
+    font-size:20px; 
 }
 
 h1{
@@ -47,11 +48,10 @@ table,th,tr,td{
     padding:5px;
 }
 .edit{
-    height:300px;
+    height:350px;
     width:auto;
 }
 .bold{
-    font-weight:1000;
     font-size: larger;
     background-color: beige;
 }
@@ -59,13 +59,23 @@ table,th,tr,td{
     font-size:larger;
     background-color: darkgoldenrod;
 }
-#flex{
+.flex{
     display:flex;
-    flex-direction: row;
-    flex-grow: 1 2 2;
+    flex-direction:row;
+    flex-grow: 1 2;
+    overflow:auto;
 }
 h3{
     color:rgb(236, 15, 34);
+}
+div.text{
+    background-color: rgb(243, 237, 230);
+    font-weight: 700;
+    font-size: x-large;
+    color:rgb(64, 233, 64);
+}
+#scroll{
+    overflow: scroll;
 }
 .footer{
    position:fixed;
@@ -77,16 +87,15 @@ h3{
    text-align:center;
 }
 .footer>p>a{
-    padding:15px;
     color:white;
+    text-decoration:none;
 }
-div.text{
-    background-color: rgb(243, 237, 230);
-    font-weight: 700;
-    font-size: x-large;
-    color:rgb(64, 233, 64);
-    
+.footer>p>a:hover{
+    color:black;
+    background-color: aqua;
 }
+
+
 
 
 
